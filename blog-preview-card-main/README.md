@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![blog-preview-card](/blog-preview-card-main/design/screenschot.png)
+![blog-preview-card](/blog-preview-card-main/design/screenshot.png)
 
 
 ### Links
@@ -64,6 +64,5 @@ I learnt how to use the font face property for the first time. I also learnt how
 ```
 
 ## Author
-
--Github - [Samuel Nkrumah](https://github.com/nanayaww)
+- Github - [Samuel Nkrumah](https://github.com/nanayaww)
 - Frontend Mentor - [@criptyn](https://www.frontendmentor.io/profile/criptyn)
