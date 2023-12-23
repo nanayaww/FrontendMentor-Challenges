@@ -6,7 +6,7 @@
 
 ## blog-preview-card-main
 
-<img src="./blog-preview-card-main/design/screenschot.png>" alt="blog-preview-card-main" width="500">
+<img src="./design/screenshot.png>" alt="blog-preview-card-main" width="500">
 
 - Live Site URL:[Live View](https://nanayaww.github.io/FrontendMentor-Challenges/blog-preview-card-main)
 - Live Site URL:[Live View](https://nanayaww.github.io/FrontendMentor-Challenges/qr-code-component)
