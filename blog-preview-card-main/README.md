@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![blog-preview-card](/blog-preview-card-main/design/screenshot.png)
+![Blog preview card](./design/screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://nanayaww.github.io/FrontendMentor-Challenges/main/blog-preview-card-main)
+- Solution URL: [Solution URL](https://github.com/nanayaww/FrontendMentor-Challenges/main/blog-preview-card-main)
 
 ## My process
 
@@ -64,5 +64,6 @@ I learnt how to use the font face property for the first time. I also learnt how
 ```
 
 ## Author
-- Github - [Samuel Nkrumah](https://github.com/nanayaww)
+
+-Github - [Samuel Nkrumah](https://github.com/nanayaww)
 - Frontend Mentor - [@criptyn](https://www.frontendmentor.io/profile/criptyn)
