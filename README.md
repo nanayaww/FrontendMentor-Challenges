@@ -6,4 +6,6 @@
 
 ## blog-preview-card-main
 
-<img src="/blog-preview-card-main/design/screenschot.png>" alt="blog-preview-card-main" >
+<img src="./blog-preview-card-main/design/screenschot.png>" alt="blog-preview-card-main" width="500">
+
+- Live Site URL:[Live View]()
