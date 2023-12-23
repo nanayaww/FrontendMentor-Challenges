@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://github.com/nanayaww/FrontendMentor-Challenges/edit/main/blog-preview-card-main)
+- Live Site URL: [Live Site](https://nanayaww.github.io/FrontendMentor-Challenges/main/blog-preview-card-main)
+- Solution URL: [Solution URL](https://github.com/nanayaww/FrontendMentor-Challenges/edit/main/blog-preview-card-main)
 
 ## My process
 
