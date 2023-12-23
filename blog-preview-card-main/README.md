@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [Live Site](https://nanayaww.github.io/FrontendMentor-Challenges/main/blog-preview-card-main)
-- Solution URL: [Solution URL](https://github.com/nanayaww/FrontendMentor-Challenges/edit/main/blog-preview-card-main)
+- Solution URL: [Solution URL](https://github.com/nanayaww/FrontendMentor-Challenges/main/blog-preview-card-main)
 
 ## My process
 
