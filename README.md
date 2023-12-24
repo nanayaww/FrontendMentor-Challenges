@@ -16,3 +16,9 @@
 <img src="./qr-code-component/design/design-completed.png" alt="qr-code-component" width="500">
 
 - Live Site URL: [Live View](https://nanayaww.github.io/FrontendMentor-Challenges/qr-code-component)
+
+#results-summary-component-main
+
+<img src="./results-summary-component-main/design/desktop-design-completed.png">
+
+Live Site URL: [Live View](https://nanayaww.github.io/FrontendMentor-Challenges/results-summary-component-main)
