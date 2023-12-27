@@ -21,6 +21,10 @@
 
 #results-summary-component-main
 
-<img src="./results-summary-component-main/design/desktop-design-completed.png">
+<img src="./results-summary-component-main/design/desktop-design-completed.png" width="500">
 
 Live Site URL: [Live View](https://nanayaww.github.io/FrontendMentor-Challenges/results-summary-component-main)
+
+#3-column-preview-card-component-main
+
+<img src="/3-column-preview-card-component-main/design/design-completed.png">
