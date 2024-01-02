@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*  PRIMARY*/
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /* NEUTRAL */
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+body {
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    background-color: var(--VeryLightGray);
+    font-size: 15px;
+}
+
+.main__h1, .main__h2, .main__p {
+    text-align: center;
+}
+
+.main__h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    color: var(--VeryDarkBlue);
+
+}
+
+.main__h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.main__p {
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    margin-bottom: 3rem;
+    color: var(--VeryDarkBlue);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.card {
+    display: grid;
+    box-shadow: 0 4px 4px 4px hsla(0, 0%, 0%, 0.4);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 30%;
+}
+
+.card img {
+    max-width: 3rem;
+    justify-self: end;
+    align-self: end;
+}
+
+.card h2 {
+    color: var(--VeryDarkBlue);
+}
+
+.card p {
+    color: var(--VeryDarkBlue);
+
+}
+
+.container .container__1 {
+    height: 50%;
+    border-top: 4px solid var(--Cyan);
+    transform: translate(40%, 50%);
+
+}
+
+
+.container .container__2 {
+    transform: translatex(50%);
+    border-top: 4px solid var(--Red);
+    height: 50%;
+
+}
+
+.container .container__3 {
+    transform: translate(-50%, 13.5rem);    
+    border-top: 4px solid var(--Orange);
+    height: 50%;
+
+}
+
+.container .container__4 {
+    height: 50%;
+    transform: translate(-40%, 50%);
+    border-top: 4px solid var(--Blue);
+
+}
+
+@media screen and (width < 700px) {
+    .container {
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .container .container__1 {
+        transform: none;
+    }
+    .container .container__2 {
+        transform: none;
+    }
+    .container .container__3 {
+        transform: none;
+    }
+    .container .container__4{
+        transform: none;
+    }
+
+    .card  {
+        margin: 1rem;
+        width: 80vw;
+        height: auto;
+    }
+}
+
+.attribution {
+     font-size: 1rem; 
+     text-align: center; 
+     margin-top: 2rem;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+

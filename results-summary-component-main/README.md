@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [results-summary-component-main](https://github.com/nanayaww/FrontendMentor-Challenges/tree/main/results-summary-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://nanayaww.github.io/FrontendMentor-Challenges/3-column-preview-card-component-main/)
 
 ## My process
 
