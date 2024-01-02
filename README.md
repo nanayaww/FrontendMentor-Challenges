@@ -30,3 +30,7 @@ Live Site URL: [Live View](https://nanayaww.github.io/FrontendMentor-Challenges/
 <img src="./3-column-preview-card-component-main/design/design-completed.png" width="500">
 
 Live Site URL: [Live View](https://nanayaww.github.io/FrontendMentor-Challenges/3-column-preview-card-component-main)
+
+#four-card-feature-section-master
+
+<img src="./four-card-feature-section-master/design/design-completed.png" width="500">

@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![results-summary-component](./design/mobile-design-completed.png)
+![results-summary-component](/results-summary-component-main/design/desktop-design-completed.png)
 
 
 ### Links
