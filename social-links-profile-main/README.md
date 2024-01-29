@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/nanayaww/FrontendMentor-Challenges/tree/main/social-links-profile)
-- Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/social-links-profile)
+- Solution URL: [Solution](https://github.com/nanayaww/FrontendMentor-Challenges/tree/main/social-links-profile-main)
+- Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/social-links-profile-main)
 
 
 ### Built with

@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/nanayaww/FrontendMentor-Challenges/tree/main/)
-- Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/)
+- Solution URL: [Solution](https://github.com/nanayaww/FrontendMentor-Challenges/tree/main/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/huddle-landing-page-with-single-introductory-section-master)
 
 
 ### Built with
