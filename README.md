@@ -6,6 +6,11 @@
  - [Table of Contents](#table-of-contents)
  - [blog-preview-card-main](#blog-preview-card-main)
  - [qr-code-component](#qr-code-component)
+ - [results-summary-component-main](#results-summary-component-main)
+ - [3-column-preview-card-component-main](#3-column-preview-card-component-main)
+ - [huddle-landing-page-with-single-introductory-section-master](#huddle-landing-page-with-single-introductory-section-master)
+ - [four-card-feature-section-master](#four-card-feature-section-master)
+ - [social-links-profile-main](#social-links-profile-main)
 
 ## blog-preview-card-main
 
