@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+<link rel="stylesheet" href="style1.css"> 
+<script src="script1.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div id="form-header">
+            <h1>Contact Us</h1>
+        </div>
+
+        <form>
+            <div class="form-group name">
+                <div class="first-name">
+                    <label for="first_name">First Name <span class="star">*</span></label>
+                    <input type="text" id="first_name" required>
+                    <p class="error hidden">This field is required</p>
+                </div>
+                <div class="last-name">
+                    <label for="last-name">Last Name <span class="star">*</span></label>
+                    <input type="text" id="last-name" required>
+                    <p class="error hidden">This field is required</p>
+                </div>
+            </div>
+
+            <div class="form-group email">
+                <label for="email">
+                    Email Address <span class="star">*</span>
+                </label>
+                <input type="email" id="email" required>
+                <p class="error hidden">Please enter a valid email address</p>
+            </div>
+
+            <div class="form-group radio-btn">
+                <label for="query">Query Type <span class="star">*</span></label>
+                <div id="query">
+                    <div class="query-type">
+                        <input type="radio" id="option1" name="query-type" required>
+                        <label for="option1">General Enquiry</label>
+                    </div>
+                    <div class="query-type">
+                        <input type="radio" id="option2" name="query-type" required>
+                        <label for="option2">Support Request</label>
+                    </div>
+                    
+                </div>
+                <p class="error hidden">Please select a query type</p>
+            </div>
+
+            <div class="form-group message">
+                <label for="message">Message <span class="star">*</span></label>
+                <textarea name="message" id="message" required></textarea>
+                <p class="error hidden">This field is required</p>
+            </div>
+
+            <div class="form-group checkbox">
+                <div id="checkbox">
+                  <input type="checkbox" id="consent" required>
+                <label for="consent">I consent to being contacted by the team <span class="star">*</span></label>  
+                </div>
+                <p class="error hidden">To submit this form, please consent to being contacted</p>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+    <div class="form-alert active">
+        <div>
+          <img src="/contact-form-main/assets/images/icon-success-check.svg" alt="success-check">
+        <span>Message Sent</span>
+        </div>
+        <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+    
+</body>
+</html>

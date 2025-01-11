@@ -1,0 +1,278 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url(./assets/fonts/young-serif/) format(ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(./assets/fonts/outfit/static/Outfit-Regular.ttf) format(ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(./assets/fonts/outfit/static/Outfit-Bold.ttf) format(ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(./assets/fonts/outfit/static/Outfit-SemiBold.ttf) format(ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Black';
+    src: url(./assets/fonts/outfit/static/Outfit-Black.ttf) format(ttf);
+    font-weight: 700;
+}
+
+:root {
+    /* PRIMARY */
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+
+    /* NEUTRAL */
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    background-color: var(--Eggshell);
+    /* display: grid;
+    place-content: center; */
+    padding: 2rem 0;
+    font-family: 'Outfit';
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: var(--Eggshell);
+}
+
+.card {
+    width: 50%;
+    height: auto;
+    margin: 2rem auto;
+    background-color: var(--White);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+
+}
+
+p {
+    color: var(--WengeBrown);
+}
+
+.card__image img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card__text__info {
+    margin-top: 1rem;
+}
+
+.card__text__info .card__header h1{
+    font-family: 'Black';
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.card__text__info .card__header p {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--WengeBrown);
+}
+
+.card__text__info .preparation {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: var(--RoseWhite);
+    border-radius: 0.5rem;
+    padding: 1.2rem 1rem;
+}
+
+.card__text__info .preparation h3 {
+    font-size: 1.2rem;
+    font-family: 'outfit';
+    font-weight: 700;
+    color: var(--DarkRaspberry);
+}
+
+.card__text__info .preparation ul {
+    padding-left: 1.5rem;
+    color: var(--WengeBrown);
+
+    
+}
+
+.card__text__info .preparation ul li::marker{
+    color: var(--DarkRaspberry);
+
+}
+
+li {
+    line-height: 1.5;
+}
+
+.card__text__info .ingredients {
+    margin-top: 1rem;
+}
+
+.card__text__info .ingredients h2 {
+    font-size: 1.8rem;
+    font-family: 'Outfit';
+    font-weight: 700;
+    color: var(--Nutmeg);
+}
+
+.card__text__info .ingredients ul {
+    margin: 1rem 0;
+    padding-left: 1rem;
+    color: var(--WengeBrown);
+
+
+}
+
+.card__text__info .ingredients ul li {
+    font-size: 1rem;
+    font-family: 'Outfit';
+    font-weight: 400;
+    padding-left: 1.2rem;
+
+}
+
+.card__text__info .ingredients ul li::marker {
+    color: var(--Nutmeg);
+}
+
+.card__text__info .instructions {
+    margin-top: 1rem;
+}
+
+.card__text__info .instructions h2 {
+    font-size: 1.8rem;
+    font-family: 'outfit';
+    font-weight: 700;
+    color: var(--Nutmeg);
+}
+
+.card__text__info .instructions ol {
+    font-size: 1rem;
+    font-family: 'outfit';
+    font-weight: 400;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.card__text__info .instructions ol li p{
+    padding-left: 1rem;
+    
+}
+
+.card__text__info .instructions ol li::marker {
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+.card__text__info .nutrition {
+    margin-top: 1rem;
+}
+
+.card__text__info .nutrition h2 {
+    font-size: 1.8rem;
+    font-family: 'outfit';
+    font-weight: 700;
+    color: var(--Nutmeg);
+}
+
+.card__text__info .nutrition p {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.card__text__info .nutrition .card__table {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.card__text__info .nutrition .card__table th {
+    text-align: start;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 1rem;
+    border-bottom: 1px solid var(--LightGrey);
+
+}
+
+.card__text__info .nutrition .card__table th p {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+
+}
+
+.card__text__info .nutrition .card__table td {
+    color: var(--Nutmeg);    
+    font-weight: 600;
+    font-family: 'Outfit';
+    font-size: 1rem;
+    border-bottom: 1px solid var(--LightGrey);
+
+}
+
+.card__text__info .nutrition .card__table td p {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+
+}
+
+
+@media screen and (max-width: 785px) {
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+    }
+}

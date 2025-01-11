@@ -11,6 +11,7 @@
  - [huddle-landing-page-with-single-introductory-section-master](#huddle-landing-page-with-single-introductory-section-master)
  - [four-card-feature-section-master](#four-card-feature-section-master)
  - [social-links-profile-main](#social-links-profile-main)
+ - [article-preview-component](#article-preview-component)
 
 ## blog-preview-card-main
 
@@ -53,5 +54,11 @@ Live Site URL: [Live View](https://nanayaww.github.io/FrontendMentor-Challenges/
 <img src="./social-links-profile-main/design/design-completed.png" width= "500">
 
 Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/social-links-profile-main)
+
+## article-preview-component
+
+<img src="./article-preview-component-master/design/design-completed.png" width= "500">
+
+Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/article-preview-component-main)
 
 
