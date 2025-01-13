@@ -59,6 +59,12 @@ Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/soci
 
 <img src="./article-preview-component-master/design/design-completed.png" width= "500">
 
-Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/article-preview-component-main)
+Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/article-preview-component-master)
+
+## interactive-rating-component
+
+<img src="./interactive-rating-component/design/design-completed.png" width= "500">
+
+Live Site URL: [Live ](https://nanayaww.github.io/FrontendMentor-Challenges/interactive-rating-component)
 
 
