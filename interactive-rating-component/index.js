@@ -27,7 +27,7 @@ let index = score - 1;
 function showThankYou(score) {
   container.innerHTML = `
                 <div id="thank-you">
-          <img src="/images/illustration-thank-you.svg" alt="illustration-thank-you">
+          <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
           <div class="selected-rating">
             <p>You selected <span>${score}</span> out of 5</p>
           </div>
